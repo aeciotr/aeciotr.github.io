@@ -1,0 +1,159 @@
+.sidebar{
+    background: #44bfa2ff;
+}
+
+:root {
+    --preto:  #44bfa2ff;
+    --cinza:   rgb(231, 231, 233);
+    --amarelo: rgb(231, 231, 233);
+  }
+  
+  body {
+    background-color: var(--cinza);
+  }
+  
+  /*******  CABEÇALHO  *******/
+  
+  .mainimage {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid var(--amarelo);
+    background: url(../img/avatar.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+  .cabecalho {
+    color: var(--white);
+    padding: 10px 0 10px 0;
+    background-color: var(--preto);
+    border-bottom: 5px solid var(--amarelo);
+  }
+  
+  h1 + h3 {
+    font-weight: 100;
+  }
+  
+  .cabecalho hr {
+    height: 5px;
+    color: var(--amarelo);
+    background-color: var(--amarelo);
+  }
+  
+  /*******  SIDEBAR  *******/
+  
+  .skills {
+    width: 270px;
+    height: 80px;
+    background: url(../img/skill.png);
+  }
+  
+  .languages {
+    width: 280px;
+    height: 75px;
+    background: url(../img/languages.png);
+  }
+  
+  .contact {
+    width: 285px;
+    height: 30px;
+    margin: 0 auto;
+  }
+  
+  .skills label{
+    padding-left: 120px !important;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--preto);
+  }
+  
+  .languages label {
+    padding-left: 105px !important;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--preto);
+  }
+  
+  .contact div {
+    background: var(--preto);
+    color: var(--cinza);
+    border-radius: 0px 0px 50px 50px;
+    margin: 0px 50px 0px 50px;
+    font-size: 20px;
+  }
+  
+  .sidebar {
+    padding: 0;
+    color: var(--white);
+    background-color: var(--preto);
+  }
+  
+  .sidebar label {
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+  
+  .progress {
+    border-radius: 0;
+    margin: 0 15px 0 30px;
+  }
+  
+  .progress-bar {
+    background-color: var(--amarelo);
+  }
+  
+  .contato {
+    font-weight: bold;
+    text-align: center;
+    color: var(--preto);
+    background-color: var(--amarelo);
+  }
+  
+  .contato label {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  /*******  CENTRALBAR  *******/
+  
+  .icons {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: var(--cinza);
+    background: var(--preto);
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .centralbar {
+    padding: 0;
+    color: var(--preto);
+    background-color: #fff;
+  }
+  
+  .centralbar label {
+    margin-bottom: 0;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /*******  CONTEUDO  *******/
+  
+  .content {
+    padding: 20px;
+    color: var(--preto);
+    background-color: var(--white);
+  }
+  
+  .content hr {
+    height: 2.5px;
+    color: var(--cinza);
+    background-color: var(--cinza);
+  }
