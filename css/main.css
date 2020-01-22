@@ -5,7 +5,7 @@
 :root {
     --preto:  #44bfa2ff;
     --cinza:   rgb(231, 231, 233);
-    --amarelo: rgb(231, 231, 233);
+    --amarelo:#fff;
   }
   
   body {
@@ -15,13 +15,32 @@
   /*******  CABEÇALHO  *******/
   
   .mainimage {
-    width: 200px;
-    height: 200px;
+
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid var(--amarelo);
     background: url(../img/avatar.jpg) no-repeat;
     background-size: cover;
+  }
+  .info_avatar{
+    text-align: center;
+    margin-top:20px;
+  }
+  .about-me{
+    padding: 15px;
+  }
+  .job{
+    font-family: 'Helvetica', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #eee;
+  }
+  .name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
   }
   
   .cabecalho {
@@ -33,6 +52,17 @@
   
   h1 + h3 {
     font-weight: 100;
+  }
+  .wrap_title{
+    margin-bottom: 20px;
+  }
+  .title{
+    padding-top:7px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300;
+  }
+  .txt_about{
+    font-size: 15px;
   }
   
   .cabecalho hr {
@@ -86,6 +116,7 @@
   }
   
   .sidebar {
+
     padding: 0;
     color: var(--white);
     background-color: var(--preto);
@@ -129,6 +160,20 @@
     background: var(--preto);
     border-radius: 50%;
     padding: 10px;
+  }
+
+  .icons_sidebar {
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 21px;
+    color: var(--preto);
+    background: var(--cinza);
+    border-radius: 52%;
+    padding: 6px;
+    margin-right: 20px;
+
   }
   
   .centralbar {
