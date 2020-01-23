@@ -41,6 +41,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 0;
   }
   
   .cabecalho {
@@ -73,22 +74,14 @@
   
   /*******  SIDEBAR  *******/
   
-  .skills {
-    width: 270px;
-    height: 80px;
-    background: url(../img/skill.png);
-  }
-  
-  .languages {
-    width: 280px;
-    height: 75px;
-    background: url(../img/languages.png);
-  }
-  
+
   .contact {
     width: 285px;
     height: 30px;
     margin: 0 auto;
+  }
+  .habilidades{
+    padding: 15px;
   }
   
   .skills label{
@@ -135,13 +128,20 @@
   .progress-bar {
     background-color: var(--amarelo);
   }
+
+  .ferramentas{
+    padding: 15px;
+  }
+  
   
   .contato {
-    font-weight: bold;
-    text-align: center;
-    color: var(--preto);
-    background-color: var(--amarelo);
+
+    padding: 15px;
   }
+
+  .foooter_sidebar {
+  }
+  
   
   .contato label {
     padding: 0;
@@ -151,15 +151,17 @@
   /*******  CENTRALBAR  *******/
   
   .icons {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     margin: 0 auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 21px;
     color: var(--cinza);
     background: var(--preto);
     border-radius: 50%;
     padding: 10px;
+    float: left;
+    margin-right: 10px;
   }
 
   .icons_sidebar {
@@ -201,4 +203,21 @@
     height: 2.5px;
     color: var(--cinza);
     background-color: var(--cinza);
+  }
+
+  .wrap_title_content{
+    margin-bottom: 30px;
+  }
+  
+  .date_content{
+    font-weight: 700;
+    font-size: 14px;
+    color:#918f90ff;
+  }
+  .desc_content{
+    color: #656263ff;
+  }
+
+  .btn-contato{
+    background: #2d847bff;
   }
