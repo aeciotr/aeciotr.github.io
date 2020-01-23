@@ -3,9 +3,9 @@
 }
 
 :root {
-    --preto:  #44bfa2ff;
+    --verde:  #44bfa2ff;
     --cinza:   rgb(231, 231, 233);
-    --amarelo:#fff;
+    --branco:#fff;
   }
   
   body {
@@ -20,7 +20,7 @@
     height: 150px;
     margin: 0 auto;
     border-radius: 50%;
-    border: 5px solid var(--amarelo);
+    border: 5px solid var(--branco);
     background: url(../img/avatar.jpg) no-repeat;
     background-size: cover;
   }
@@ -47,8 +47,8 @@
   .cabecalho {
     color: var(--white);
     padding: 10px 0 10px 0;
-    background-color: var(--preto);
-    border-bottom: 5px solid var(--amarelo);
+    background-color: var(--verde);
+    border-bottom: 5px solid var(--branco);
   }
   
   h1 + h3 {
@@ -68,8 +68,8 @@
   
   .cabecalho hr {
     height: 5px;
-    color: var(--amarelo);
-    background-color: var(--amarelo);
+    color: var(--branco);
+    background-color: var(--branco);
   }
   
   /*******  SIDEBAR  *******/
@@ -89,7 +89,7 @@
     padding-top: 25px;
     font-weight: bold;
     font-size: 20px;
-    color: var(--preto);
+    color: var(--verde);
   }
   
   .languages label {
@@ -97,11 +97,11 @@
     padding-top: 20px;
     font-size: 20px;
     font-weight: bold;
-    color: var(--preto);
+    color: var(--verde);
   }
   
   .contact div {
-    background: var(--preto);
+    background: var(--verde);
     color: var(--cinza);
     border-radius: 0px 0px 50px 50px;
     margin: 0px 50px 0px 50px;
@@ -112,7 +112,7 @@
 
     padding: 0;
     color: var(--white);
-    background-color: var(--preto);
+    background-color: var(--verde);
   }
   
   .sidebar label {
@@ -126,7 +126,7 @@
   }
   
   .progress-bar {
-    background-color: var(--amarelo);
+    background-color: var(--branco);
   }
 
   .ferramentas{
@@ -157,7 +157,7 @@
     text-align: center;
     font-size: 21px;
     color: var(--cinza);
-    background: var(--preto);
+    background: var(--verde);
     border-radius: 50%;
     padding: 10px;
     float: left;
@@ -170,7 +170,7 @@
     float: left;
     text-align: center;
     font-size: 21px;
-    color: var(--preto);
+    color: var(--verde);
     background: var(--cinza);
     border-radius: 52%;
     padding: 6px;
@@ -180,7 +180,7 @@
   
   .centralbar {
     padding: 0;
-    color: var(--preto);
+    color: var(--verde);
     background-color: #fff;
   }
   
@@ -195,7 +195,7 @@
   
   .content {
     padding: 20px;
-    color: var(--preto);
+    color: var(--verde);
     background-color: var(--white);
   }
   
