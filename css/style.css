@@ -3,7 +3,7 @@
 }
 
 :root {
-    --verde:  #44bfa2ff;
+    --verde:  #00B5AC;
     --cinza:   rgb(231, 231, 233);
     --branco:#fff;
   }
@@ -16,8 +16,8 @@
   
   .mainimage {
 
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid var(--branco);
@@ -89,6 +89,7 @@
     padding-top: 25px;
     font-weight: bold;
     font-size: 20px;
+
     color: var(--verde);
   }
   
@@ -112,7 +113,8 @@
 
     padding: 0;
     color: var(--white);
-    background-color: var(--verde);
+   /* background-color: var(--verde);*/
+    background-image: linear-gradient(to right, #008BAC , #00B5AC); 
   }
   
   .sidebar label {
@@ -139,7 +141,11 @@
     padding: 15px;
   }
 
-  .foooter_sidebar {
+  .footer_sidebar {
+    text-align: center;
+  }
+  .main_logo  {
+    margin: 0 auto ;
   }
   
   
@@ -220,4 +226,16 @@
 
   .btn-contato{
     background: #2d847bff;
+  }
+
+
+  canvas {
+    display: block;
+  }
+  
+  /* ---- particles.js container ---- */
+  #particles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
