@@ -39,7 +39,7 @@
   }
   .name{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 500;
     margin-bottom: 0;
   }
@@ -58,7 +58,7 @@
     margin-bottom: 20px;
   }
   .title{
-    padding-top:7px;
+    padding-top:10px;
     font-family: 'Raleway', sans-serif;
     font-size: 300;
   }
@@ -125,10 +125,14 @@
   .progress {
     border-radius: 0;
     margin: 0 15px 0 30px;
+    height: 0.5rem;
+    border-radius: 3px;
   }
   
   .progress-bar {
-    background-color: var(--branco);
+    background-color: #09F9F7;
+
+
   }
 
   .ferramentas{
@@ -162,7 +166,7 @@
     margin: 0 auto;
     text-align: center;
     font-size: 21px;
-    color: var(--cinza);
+    color: #fff;
     background: var(--verde);
     border-radius: 50%;
     padding: 10px;
@@ -177,7 +181,7 @@
     text-align: center;
     font-size: 21px;
     color: var(--verde);
-    background: var(--cinza);
+    background:#fff;
     border-radius: 52%;
     padding: 6px;
     margin-right: 20px;

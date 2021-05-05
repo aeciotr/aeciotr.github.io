@@ -1,14 +1,20 @@
 
 function sendMail(){
+
+  const nome = document.querySelector("input[name=name]");
+  const email = document.querySelector("input[name=email]");
+  const mensagem = document.querySelector("textarea[name=comment]");
     Email.send({
         SecureToken : "96a604ea-831f-409f-bbf1-050756d23913",
         To : 'aeciotr@gmail.com',
         From : "aeciotr@gmail.com",
-        Subject : "Contato - Curriculo",
-        Body : "Gostaria de lhe contratar..."
+        Subject : "Contato - Currículo",
+        Body : "<strong>Nome: </strong>"+nome.value+" <br>  <strong>E-mail: </strong>:"+email.value+"<br> <strong>Mensagem: </strong>"+mensagem.value
     }).then(
-        message => alert("Mensagem enviado com sucesso, obrigado pelo contato.")
+        message => alert("Mensagem enviado com sucesso, obrigado pelo contato."),
+        $('#ModalContact').modal('hide')
     );
+  
 }
 
 particlesJS("particles-container", {
